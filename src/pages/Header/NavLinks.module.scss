@@ -1,0 +1,59 @@
+.navLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem 2rem;
+    background-color: #ffffff;
+}
+
+.linkItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.2s;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+.imageContainer {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+}
+
+.roundImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.linkText {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.signupButton {
+    padding: 1rem 1.5rem;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    white-space: nowrap;
+    max-width: 450px;
+    margin-left: 1rem;
+
+    &:hover {
+        background-color: #ff3333;
+    }
+}

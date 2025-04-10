@@ -1,0 +1,21 @@
+.cardContainer {
+    column-count: 4;
+    column-gap: 24px;
+}
+.cardContainerCardWrapper {
+    // background-color: #aaa;
+    display: inline-block;
+    margin: 0 0 1.8em;
+    width: 100%;
+}
+
+.mainContainer {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.titleContainer {
+    margin-bottom: 20px;
+}

@@ -23,6 +23,8 @@ const router = createBrowserRouter(
 function App() {
     const originalState = {
         seed: "",
+        category: "all",
+        searchText: "",
     };
 
     const reducer = function (draft, action) {
@@ -30,6 +32,12 @@ function App() {
             case "setSeed":
                 action.payload = action.payload.toString().trim();
                 draft.seed = action.payload;
+                return;
+            case "setCategory":
+                draft.category = action.payload;
+                return;
+            case "setSearchText":
+                draft.searchText = action.payload;
                 return;
             default:
                 return;

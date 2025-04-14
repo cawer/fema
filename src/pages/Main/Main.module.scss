@@ -1,11 +1,12 @@
 .cardContainer {
-    column-count: 4;
-    column-gap: 24px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
 }
+
 .cardContainerCardWrapper {
-    // background-color: #aaa;
-    display: inline-block;
-    margin: 0 0 1.8em;
+    display: block;
+    margin: 0;
     width: 100%;
 }
 

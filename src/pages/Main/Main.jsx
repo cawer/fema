@@ -6,31 +6,45 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPalette } from "@fortawesome/free-solid-svg-icons";
 
 import Card from "../Card/Card";
+import _data from "./data.json";
 
-const images = import.meta.glob("./imagens/*.jfif", { eager: true });
+const images = import.meta.glob("./imagens/*.*", { eager: true });
 
 export default function Main() {
     const { globalState, globalDispatch } = useContext(GlobalContext);
 
     const [data, setData] = useState([]);
+    const [filteredData, setFilteredData] = useState([]);
 
     useEffect(() => {
-        const loadImages = async () => {
-            const imagesKeys = Object.keys(images);
-            const imageArray = imagesKeys.map((key) => ({
-                id: key,
-                image: images[key].default, // acessando a URL da imagem
-                name: "titulo",
-                description: "descricao",
-                price: 10,
-            }));
-            // Randomize the array
-            imageArray.sort(() => Math.random() - 0.5);
-            setData(imageArray);
-        };
-
-        loadImages();
+        console.log(images);
+        const dataWithImages = _data.map((item) => ({
+            ...item,
+            image: images[`./imagens/${item.image}`].default,
+        }));
+        // Randomize the order of the data
+        dataWithImages.sort(() => Math.random() - 0.5);
+        setData(dataWithImages);
     }, []);
+
+    useEffect(() => {
+        let filtered = data;
+
+        if (globalState.category !== "all") {
+            filtered = filtered.filter(
+                (item) => item.category === globalState.category
+            );
+        }
+
+        if (globalState.searchText) {
+            const searchLower = globalState.searchText.toLowerCase();
+            filtered = filtered.filter((item) =>
+                item.title.toLowerCase().includes(searchLower)
+            );
+        }
+
+        setFilteredData(filtered);
+    }, [globalState.category, globalState.searchText, data]);
 
     return (
         <div className="main">
@@ -40,15 +54,15 @@ export default function Main() {
                     {/* <FontAwesomeIcon icon={faPalette} className={styles.icon} /> */}
                 </div>
                 <div className={styles.cardContainer}>
-                    {data.map((product) => (
+                    {filteredData.map((product) => (
                         <div
                             className={styles.cardContainerCardWrapper}
-                            key={product.id}
+                            key={product.image}
                         >
                             <Card
-                                key={product.id}
+                                key={product.image}
                                 image={product.image}
-                                title={product.name}
+                                title={product.title}
                                 description={product.description}
                                 price={product.price}
                             />

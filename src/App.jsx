@@ -15,7 +15,7 @@ import Main from "./pages/Main/Main";
 const router = createBrowserRouter(
     createRoutesFromElements(
         <Route path="/" element={<RootLayout />}>
-            <Route path="/main" element={<Main />} />
+            <Route path="fema" element={<Main />} />
         </Route>
     )
 );

@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import styles from "./SearchBar.module.scss";
-import { FaSearch, FaPhone, FaTimes } from "react-icons/fa";
+import { FaPhone, FaTimes } from "react-icons/fa";
 import GlobalContext from "../GlobalContext";
 
 const SearchBar = () => {
@@ -34,9 +34,6 @@ const SearchBar = () => {
                             <FaTimes />
                         </button>
                     )}
-                    <button className={styles.searchButton}>
-                        <FaSearch />
-                    </button>
                 </div>
                 <button className={styles.contactButton}>
                     <FaPhone className={styles.phoneIcon} />

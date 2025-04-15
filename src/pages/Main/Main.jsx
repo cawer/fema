@@ -51,7 +51,19 @@ export default function Main() {
             <div className={styles.mainContainer}>
                 <div className={styles.titleContainer}>
                     <h2 className={styles.title}>Novidades</h2>
-                    {/* <FontAwesomeIcon icon={faPalette} className={styles.icon} /> */}
+                    {globalState.category !== "all" && (
+                        <button
+                            className={styles.clearFilters}
+                            onClick={() =>
+                                globalDispatch({
+                                    type: "setCategory",
+                                    payload: "all",
+                                })
+                            }
+                        >
+                            Limpar filtros
+                        </button>
+                    )}
                 </div>
                 <div className={styles.cardContainer}>
                     {filteredData.map((product) => (

@@ -2,238 +2,238 @@
     {
         "image": "1.avif",
         "title": "Vestido de Algodão de Manga Curta",
-        "description": "Esse vestido versátil combina um corpete de algodão ajustado com decote redondo a uma saia evasê de popeline ampla, que conta com franzido na cintura para dar mais volume.",
+        "description": "Vestido versátil com corpete ajustado de algodão e decote redondo, apresentando saia evasê de popeline com franzido na cintura.",
         "price": "1249.99",
         "category": "female"
     },
     {
         "image": "2.avif",
         "title": "Vestido de Algodão de Manga Curta",
-        "description": "Esse vestido versátil combina um corpete ajustado de algodão com decote redondo e uma ampla saia evasê de popeline, que apresenta franzidos na cintura para maior volume.",
+        "description": "Vestido versátil com corpete ajustado de algodão e decote redondo, acompanhado de uma ampla saia evasê com franzidos na cintura.",
         "price": "2789.90",
         "category": "female"
     },
     {
         "image": "3.avif",
         "title": "Vestido Polo Sem Mangas de Algodão com Elasticidade",
-        "description": "Esta versão sem mangas e de corte reto do icônico vestido estilo camisa Polo de Ralph Lauren é confeccionada em malha de algodão com elasticidade e bordada com o nosso emblemático Pony no peito.",
+        "description": "Vestido sem mangas de corte reto, confeccionado em malha de algodão com elasticidade e bordado com o emblemático Pony no peito.",
         "price": "1899.99",
         "category": "female"
     },
     {
         "image": "4.avif",
         "title": "Vestido Polo de Malha de Algodão",
-        "description": "Esta versão de malha de algodão do icônico vestido Polo da Ralph Lauren apresenta uma silhueta reta com fendas laterais alongadas e o nosso emblemático Pony bordado no peito.",
+        "description": "Vestido Polo de malha de algodão com silhueta reta, fendas laterais alongadas e Pony bordado no peito.",
         "price": "2159.90",
         "category": "female"
     },
     {
         "image": "5.avif",
         "title": "Vestido Polo Transpassado de Piquê com Bordado Vazado",
-        "description": "A icônica camisa Polo da Ralph Lauren foi reinventada como um vestido com detalhe falso transpassado que se ajusta na cintura. Confeccionado em piquê de algodão com elasticidade, esta versão apresenta bordado vazado acima da barra ondulada.",
+        "description": "Vestido transpassado em piquê de algodão com elasticidade, bordado vazado e barra ondulada.",
         "price": "2999.99",
         "category": "female"
     },
     {
         "image": "6.avif",
         "title": "Vestido de Chambray de Algodão com Painéis",
-        "description": "Este vestido de chambray de algodão possui uma construção com painéis, que combina um corpete ajustado com finas alças estilo espaguete e uma saia com babados.",
+        "description": "Vestido de chambray com corpete ajustado, alças finas estilo espaguete e saia com babados.",
         "price": "1599.90",
         "category": "female"
     },
     {
         "image": "7.avif",
         "title": "Vestido Jeans com Decote Halter",
-        "description": "Lavado para um tom médio de índigo, o denim japonês confere uma textura suave a este vestido, que apresenta um decote halter com amarração e uma construção com painéis.",
+        "description": "Vestido de denim japonês com decote halter, amarração e construção com painéis.",
         "price": "2459.99",
         "category": "female"
     },
     {
         "image": "8.avif",
         "title": "Jardineira Jeans",
-        "description": "Confeccionada em uma mistura leve de algodão e cânhamo, esta jardineira jeans foi tingida com um tom médio de índigo e tratada com lixamento manual, marcações sutis e desgaste nas costuras, conferindo a aparência de uma peça favorita com aspecto envelhecido.",
+        "description": "Jardineira jeans tingida com índigo médio, tratada para aparência envelhecida e confeccionada em mistura de algodão e cânhamo.",
         "price": "1899.90",
         "category": "female"
     },
     {
         "image": "9.avif",
         "title": "Vestido Midi de Cetim Estilo Slip",
-        "description": "Cortado no viés, este vestido estilo slip de cetim com dupla face possui uma silhueta midi, com caimento fluido e alças finas ajustáveis para um ajuste personalizado.",
+        "description": "Vestido estilo slip de cetim com silhueta midi, caimento fluido e alças ajustáveis.",
         "price": "2699.99",
         "category": "female"
     },
     {
         "image": "10.avif",
         "title": "Vestido Floral de Crepe com Botões Frontais",
-        "description": "Este vestido de crepe apresenta uma estampa floral em pequena escala, com pespontos de múltiplas agulhas ao longo do decote e da carcela com botões. A silhueta em estilo fit-and-flare é cuidadosamente projetada com uma cintura em painéis para maior definição e franzidos que criam volume na saia.",
+        "description": "Vestido de crepe com estampa floral, botões frontais e silhueta fit-and-flare. Cintura em painéis e franzidos para maior volume.",
         "price": "1999.90",
         "category": "female"
     },
     {
         "image": "100.avif",
         "title": "Camisa Oxford Slim Fit",
-        "description": "A camisa Oxford estreou no início da marca Ralph Lauren e, desde então, consolidou seu status como um pilar do estilo Polo. Atualmente, o Sr. Lauren continua a criar inúmeras variações de sua camisa icônica, incluindo esta versão ajustada que é finalizada com o nosso emblemático Pony.",
+        "description": "Clássica camisa Oxford em versão ajustada, um pilar do estilo Polo, finalizada com o emblemático Pony da marca.",
         "price": "599.90",
         "category": "male"
     },
     {
         "image": "101.avif",
         "title": "Camisa Oxford Custom Fit",
-        "description": "A camisa Oxford estreou no início da marca Ralph Lauren e, desde então, consolidou seu status como um pilar do estilo Polo. Atualmente, o Sr. Lauren continua a criar inúmeras variações de sua camisa icônica, incluindo esta versão ajustada que é bordada com o nosso Pony multicolorido.",
+        "description": "Camisa Oxford ajustada com Pony multicolorido bordado, um clássico do estilo Polo.",
         "price": "649.90",
         "category": "male"
     },
     {
         "image": "102.avif",
         "title": "Camisa Oxford Listrada Custom Fit",
-        "description": "A camisa Oxford estreou muito cedo nos designs da Ralph Lauren e, desde então, consolidou seu status como um pilar do estilo Polo. Atualmente, o Sr. Lauren continua a criar inúmeras variações de sua camisa icônica, incluindo esta versão listrada, que é bordada com o nosso Pony multicolorido.",
+        "description": "Camisa Oxford listrada com Pony multicolorido bordado, um clássico do estilo Polo.",
         "price": "699.90",
         "category": "male"
     },
     {
         "image": "103.avif",
         "title": "Camisa de Linho Custom Fit",
-        "description": "O linho leve e respirável torna esta camisa perfeitamente adequada para dias de clima quente.",
+        "description": "Camisa de linho leve e respirável, ideal para dias quentes.",
         "price": "799.90",
         "category": "male"
     },
     {
         "image": "104.avif",
         "title": "Camisa de Linho Slim Fit",
-        "description": "Esta camisa Slim Fit é feita de linho ultraleve e bordada com o nosso emblemático Pony no peito.",
+        "description": "Camisa Slim Fit de linho ultraleve com Pony bordado no peito.",
         "price": "749.90",
         "category": "male"
     },
     {
         "image": "105.avif",
         "title": "Jaqueta Bomber com Isolamento",
-        "description": "Inspirada no conceito utilitário desta temporada – uma coleção baseada em design robusto e tecidos funcionais – esta releitura da clássica jaqueta bomber é confeccionada em tecido repelente à água. É preenchida com isolamento alternativo ao de penas e possui forro de malha na parte inferior do corpo, proporcionando uma camada quente, mas respirável.",
+        "description": "Jaqueta bomber moderna com tecido repelente à água, isolamento térmico e forro de malha para conforto e funcionalidade.",
         "price": "2499.90",
         "category": "male"
     },
     {
         "image": "106.avif",
         "title": "A Icônica Jaqueta Field",
-        "description": "A reinterpretação da clássica jaqueta field por Ralph Lauren combina um ajuste moderno com detalhes autênticos e patches característicos. Em sarja espinha de peixe de algodão, este estilo tingido apresenta construção bi-swing para facilidade de movimento e conforto aprimorado.",
+        "description": "Jaqueta field em sarja espinha de peixe de algodão, com design moderno e construção bi-swing para maior mobilidade.",
         "price": "2899.90",
         "category": "male"
     },
     {
         "image": "107.avif",
         "title": "Jaqueta Reversível Colden",
-        "description": "Esta jaqueta acolchoada é reversível entre dois lados de cores sólidas e repelentes à água. Seu preenchimento alternativo ao de penas adiciona calor a esta camada leve sem volume.",
+        "description": "Jaqueta acolchoada reversível com lados repelentes à água e preenchimento térmico alternativo ao de penas.",
         "price": "1999.90",
         "category": "male"
     },
     {
         "image": "108.avif",
         "title": "Jaqueta Bi-Swing",
-        "description": "Esta jaqueta leve foi projetada com uma construção bi-swing que permite facilidade de movimento.",
+        "description": "Jaqueta leve com construção bi-swing para maior mobilidade.",
         "price": "1799.90",
         "category": "male"
     },
     {
         "image": "109.avif",
         "title": "Moletom RL Fleece com Capuz",
-        "description": "Perfeito para combinar com roupas esportivas, jeans ou shorts, este moletom de algodão misto com capuz certamente se tornará uma peça muito querida.",
+        "description": "Moletom de algodão misto com capuz, ideal para combinar com roupas esportivas, jeans ou shorts.",
         "price": "899.90",
         "category": "male"
     },
     {
         "image": "110.avif",
         "title": "Suéter de Algodão com Malha em Mesh e Zíper 1/4",
-        "description": "Reinterpretamos nosso icônico tecido em mesh com fios de algodão penteado para criar este suéter leve.",
+        "description": "Suéter leve de algodão penteado reinterpretado com malha em mesh.",
         "price": "1299.90",
         "category": "male"
     },
     {
         "image": "200.avif",
         "title": "Moletom de Fleece",
-        "description": "Certamente se tornará uma peça muito querida, este moletom de mistura de algodão foi lavado para maior maciez e bordado com nosso emblemático Pony.",
+        "description": "Moletom de mistura de algodão lavado para maior maciez, bordado com o emblemático Pony.",
         "price": "399.90",
         "category": "kids"
     },
     {
         "image": "201.avif",
         "title": "Moletom com Capuz de Fleece e Mistura de Algodão",
-        "description": "Perfeito para combinar com roupas esportivas, jeans ou shorts, este moletom com capuz de fleece certamente se tornará uma peça muito querida.",
+        "description": "Moletom com capuz de fleece, perfeito para combinar com roupas esportivas, jeans ou shorts.",
         "price": "449.90",
         "category": "kids"
     },
     {
         "image": "202.avif",
         "title": "Moletom com Zíper Inteiro de French Terry",
-        "description": "Este moletom com capuz é feito de French Terry em mistura de algodão e lavado para maior maciez. Nosso icônico Pony bordado adiciona um toque característico.",
+        "description": "Moletom com capuz de French Terry em mistura de algodão, lavado para maciez e bordado com o Pony.",
         "price": "499.90",
         "category": "kids"
     },
     {
         "image": "203.avif",
         "title": "Moletom de Fleece com Estampa de Barco",
-        "description": "Lavado para maior maciez, este moletom combina o confortável fleece em mistura de algodão com um gráfico exclusivo de barco à vela.",
+        "description": "Moletom de fleece com gráfico de barco à vela, lavado para maior maciez.",
         "price": "379.90",
         "category": "kids"
     },
     {
         "image": "204.avif",
         "title": "Moletom com Zíper Inteiro e Mini Trança de Algodão",
-        "description": "Este moletom com zíper inteiro foi reinventado com algodão penteado de peso médio em um padrão de mini trança.",
+        "description": "Moletom com zíper inteiro em algodão penteado de peso médio com padrão de mini trança.",
         "price": "549.90",
         "category": "kids"
     },
     {
         "image": "205.avif",
         "title": "Cardigã de Algodão com Mini Trança",
-        "description": "Tão icônico quanto era quando estreou décadas atrás, nosso cardigã de malha trançada adiciona o estilo característico Polo a tudo, de vestidos a jeans e camiseta.",
+        "description": "Cardigã de malha trançada, estilo Polo, ideal para combinar com vestidos, jeans e camiseta.",
         "price": "599.90",
         "category": "kids"
     },
     {
         "image": "206.avif",
         "title": "Pulôver Polo de Algodão com Mini Trança",
-        "description": "Este pulôver reimagina nossa icônica camisa Polo com algodão penteado de peso médio em um padrão de mini malha trançada.",
+        "description": "Pulôver de algodão penteado com padrão de mini malha trançada, inspirado na icônica camisa Polo.",
         "price": "479.90",
         "category": "kids"
     },
     {
         "image": "207.avif",
         "title": "Cardigã de Algodão com Ponto de Rede",
-        "description": "Este cardigã é feito de algodão penteado de peso médio, que é tricotado em um padrão delicado de ponto de rede. Acabamento ondulado e botões desparelhados o tornam ainda mais encantador.",
+        "description": "Cardigã de algodão penteado com padrão de ponto de rede, acabamento ondulado e botões desparelhados.",
         "price": "529.90",
         "category": "kids"
     },
     {
         "image": "208.avif",
         "title": "Pulôver Gola Redonda com Polo Bear",
-        "description": "Este pulôver de gola redonda usa mais de 15 fios diferentes para representar nosso querido Polo Bear vestido em um look característico da Ralph Lauren.",
+        "description": "Pulôver de gola redonda com Polo Bear representado em mais de 15 fios diferentes.",
         "price": "649.90",
         "category": "kids"
     },
     {
         "image": "209.avif",
         "title": "Cardigã de Algodão com Patchwork",
-        "description": "Este cardigã alcança seu design charmoso de patchwork com fios de algodão penteado em uma variedade de tons frios de azul e padrões de malha.",
+        "description": "Cardigã de algodão penteado com design de patchwork em tons frios de azul e padrões de malha.",
         "price": "579.90",
         "category": "kids"
     },
     {
         "image": "210.avif",
         "title": "Pulôver de Algodão com Malha Trançada",
-        "description": "Este pulôver de gola redonda é feito em malha trançada com algodão penteado de peso médio e finalizado com nosso emblemático Pony bordado.",
+        "description": "Pulôver de gola redonda em malha trançada com algodão penteado e Pony bordado.",
         "price": "429.90",
         "category": "kids"
     },
     {
         "image": "300.webp",
         "title": "Larroudé x Libertine Pump In Gold Specchio and Golden Balls",
-        "description": "Scarpin reinventado com esferas douradas, estilo punk rock e toque de alta costura elegante.",
+        "description": "Scarpin com esferas douradas, estilo punk rock e toque de alta costura elegante.",
         "price": "2750.00",
         "category": "shoes"
     },
     {
         "image": "301.webp",
         "title": "Verbier Bootie In Peanut Suede and Natural Shearling",
-        "description": "Bota flat de camurça macia com pelo sintético, laço com tassel e estilo confortável para o inverno.",
+        "description": "Bota de camurça com pelo sintético, laço com tassel e estilo confortável para o inverno.",
         "price": "2390.00",
         "category": "shoes"
     },

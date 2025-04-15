@@ -8,7 +8,7 @@ import masculino from "./imagens/masculino.avif";
 import calcados from "./imagens/calcados.webp";
 
 const NavLinks = () => {
-    const { globalDispatch } = useContext(GlobalContext);
+    const { globalDispatch, globalState } = useContext(GlobalContext);
 
     const handleCategoryClick = (category) => {
         globalDispatch({ type: "setCategory", payload: category });
@@ -28,7 +28,13 @@ const NavLinks = () => {
                         className={styles.roundImage}
                     />
                 </div>
-                <span className={styles.linkText}>Feminino</span>
+                <span
+                    className={`${styles.linkText} ${
+                        globalState.category === "female" ? styles.active : ""
+                    }`}
+                >
+                    Feminino
+                </span>
             </a>
             <a
                 href="#"
@@ -42,7 +48,13 @@ const NavLinks = () => {
                         className={styles.roundImage}
                     />
                 </div>
-                <span className={styles.linkText}>Masculino</span>
+                <span
+                    className={`${styles.linkText} ${
+                        globalState.category === "male" ? styles.active : ""
+                    }`}
+                >
+                    Masculino
+                </span>
             </a>
             <a
                 href="#"
@@ -56,7 +68,13 @@ const NavLinks = () => {
                         className={styles.roundImage}
                     />
                 </div>
-                <span className={styles.linkText}>Infantil</span>
+                <span
+                    className={`${styles.linkText} ${
+                        globalState.category === "kids" ? styles.active : ""
+                    }`}
+                >
+                    Infantil
+                </span>
             </a>
             <a
                 href="#"
@@ -70,7 +88,13 @@ const NavLinks = () => {
                         className={styles.roundImage}
                     />
                 </div>
-                <span className={styles.linkText}>Calçados</span>
+                <span
+                    className={`${styles.linkText} ${
+                        globalState.category === "shoes" ? styles.active : ""
+                    }`}
+                >
+                    Calçados
+                </span>
             </a>
             <button className={styles.signupButton}>
                 Cadastre-se agora e ganhe 10% de desconto

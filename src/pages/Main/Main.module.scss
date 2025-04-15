@@ -18,5 +18,21 @@
 }
 
 .titleContainer {
-    margin-bottom: 20px;
+    // margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clearFilters {
+    // color: #ff4d4d;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 1rem;
+    text-decoration: underline;
+
+    &:hover {
+        color: #ff3333;
+    }
 }

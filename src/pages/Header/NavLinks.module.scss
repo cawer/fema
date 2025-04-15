@@ -37,6 +37,11 @@
 .linkText {
     font-size: 1.1rem;
     font-weight: 500;
+
+    &.active {
+        font-weight: 700;
+        text-decoration: underline;
+    }
 }
 
 .signupButton {

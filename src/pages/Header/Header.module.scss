@@ -31,6 +31,7 @@
 .titleContainer {
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
 }
 
 .title {
@@ -44,4 +45,21 @@
     font-size: 1rem;
     color: #666;
     margin: 0;
+}
+
+.cartContainer {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: #333;
+    cursor: pointer;
+}
+
+.cartIcon {
+    font-size: 1.5rem;
+}
+
+.cartItems {
+    font-size: 0.9rem;
 }

@@ -6,3 +6,23 @@
     bottom: 0;
     /* width: 100%; */
 }
+
+.floatingImage {
+    position: fixed;
+    right: 200px;
+    bottom: 50px;
+    z-index: 1000;
+    cursor: pointer;
+    width: 200px;
+    height: auto;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s, transform 0.5s ease-out;
+    transform: translateY(100px);
+}
+
+.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}

@@ -1,12 +1,44 @@
-import React from "react";
+import React, { useRef, useEffect, useState } from "react";
 import styles from "./Footer.module.css";
+import FaleConosco from "./fale-conosco-2.png";
 
 const Footer = () => {
+    const footerRef = useRef(null);
+    const [isVisible, setIsVisible] = useState(false);
     const currentYear = new Date().getFullYear();
 
+    useEffect(() => {
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                setIsVisible(entry.isIntersecting);
+            },
+            { threshold: 0.1 }
+        );
+
+        if (footerRef.current) {
+            observer.observe(footerRef.current);
+        }
+
+        return () => {
+            if (footerRef.current) {
+                observer.unobserve(footerRef.current);
+            }
+        };
+    }, []);
+
     return (
-        <footer className={styles.footer}>
-            <p>&copy; {currentYear} - Todos os direitos reservados</p>
+        <footer ref={footerRef} className={styles.footer}>
+            <img
+                src={FaleConosco}
+                alt="Fale Conosco"
+                className={`${styles.floatingImage} ${
+                    isVisible ? styles.visible : ""
+                }`}
+            />
+            <p>
+                &copy; {currentYear} - Página fictícia desenvolvida por alunos
+                da FEMA
+            </p>
         </footer>
     );
 };

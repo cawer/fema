@@ -1,4 +1,5 @@
 import React, { useRef, useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import styles from "./Footer.module.css";
 import FaleConosco from "./fale-conosco-2.png";
 
@@ -28,13 +29,15 @@ const Footer = () => {
 
     return (
         <footer ref={footerRef} className={styles.footer}>
-            <img
-                src={FaleConosco}
-                alt="Fale Conosco"
-                className={`${styles.floatingImage} ${
-                    isVisible ? styles.visible : ""
-                }`}
-            />
+            <Link to="/fema/quem-somos">
+                <img
+                    src={FaleConosco}
+                    alt="Fale Conosco"
+                    className={`${styles.floatingImage} ${
+                        isVisible ? styles.visible : ""
+                    }`}
+                />
+            </Link>
             <p>
                 &copy; {currentYear} - Página fictícia desenvolvida por alunos
                 da FEMA

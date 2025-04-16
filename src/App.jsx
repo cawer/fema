@@ -11,11 +11,15 @@ import "./App.css";
 import RootLayout from "./layouts/RootLayout";
 
 import Main from "./pages/Main/Main";
+import About from "./pages/About/About";
 
 const router = createBrowserRouter(
     createRoutesFromElements(
         <Route path="/" element={<RootLayout />}>
-            <Route path="fema" element={<Main />} />
+            <Route path="fema">
+                <Route index element={<Main />} />
+                <Route path="quem-somos" element={<About />} />
+            </Route>
         </Route>
     )
 );

@@ -1,25 +1,28 @@
 import styles from "./About.module.scss";
 import { Link } from "react-router-dom";
+import fernanda from "./fernanda.png";
+import bianca from "./bianca.png";
+import heitor from "./heitor.png";
+import joao from "./joao.png";
 
 export default function About() {
     const developers = [
         {
             name: "Fernanda W.",
-            role: "Desenvolvedora Front-end",
-            image: "https://randomuser.me/api/portraits/women/44.jpg",
-            bio: "Ana é estudante de Ciência da Computação na FEMA e apaixonada por desenvolvimento web. Quando não está codificando, adora assistir filmes de ficção científica e passear com seu cachorro.",
+            image: fernanda,
         },
         {
-            name: "Bianca X",
-            role: "Desenvolvedor Full-stack",
-            image: "https://randomuser.me/api/portraits/men/32.jpg",
-            bio: "Carlos está no último ano de Sistemas de Informação e é fã de videogames. Ele sempre diz que aprendeu lógica de programação jogando Zelda e que seu sonho é desenvolver um jogo indie.",
+            name: "Bianca K.",
+            image: bianca,
         },
         {
-            name: "Júlia Ferreira",
-            role: "Designer UX/UI",
-            image: "https://randomuser.me/api/portraits/women/65.jpg",
-            bio: "Júlia é especialista em design de interfaces e está sempre com um caderno de sketches por perto. Nas horas vagas, ela pinta quadros abstratos e coleciona plantas exóticas.",
+            name: "João H.",
+            image: joao,
+        },
+
+        {
+            name: "Heitor O.",
+            image: heitor,
         },
     ];
 
@@ -59,24 +62,22 @@ export default function About() {
                 <div className={styles.developersSection}>
                     <h2 className={styles.developersSectionTitle}>Alunos</h2>
 
-                    {developers.map((dev, index) => (
-                        <div key={index} className={styles.developerCard}>
-                            <img
-                                src={dev.image}
-                                alt={`Foto de ${dev.name}`}
-                                className={styles.developerImage}
-                            />
-                            <div className={styles.developerInfo}>
-                                <h3 className={styles.developerName}>
-                                    {dev.name}
-                                </h3>
-                                <p className={styles.developerRole}>
-                                    {dev.role}
-                                </p>
-                                <p className={styles.developerBio}>{dev.bio}</p>
+                    <div className={styles.developersGrid}>
+                        {developers.map((dev, index) => (
+                            <div key={index} className={styles.developerCard}>
+                                <img
+                                    src={dev.image}
+                                    alt={`Foto de ${dev.name}`}
+                                    className={styles.developerImage}
+                                />
+                                <div className={styles.developerInfo}>
+                                    <h3 className={styles.developerName}>
+                                        {dev.name}
+                                    </h3>
+                                </div>
                             </div>
-                        </div>
-                    ))}
+                        ))}
+                    </div>
                 </div>
             </div>
         </div>
